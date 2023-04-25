@@ -16,5 +16,9 @@ function operate (operator,num1,num2) {
         case "sub":
             return sub(num1,num2);
         break;
+
+        case "mul":
+            return mul(num1,num2);
+          break; 
     }
 }
