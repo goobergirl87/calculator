@@ -8,4 +8,6 @@ let num2 = 0;
 let op;
 
 function operate (operator,num1,num2) {
+    switch (operator) {
+    }
 }
