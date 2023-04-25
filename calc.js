@@ -12,5 +12,9 @@ function operate (operator,num1,num2) {
         case "add":
             return add(num1,num2);
         break;
+
+        case "sub":
+            return sub(num1,num2);
+        break;
     }
 }
