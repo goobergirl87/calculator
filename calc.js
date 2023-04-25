@@ -20,5 +20,9 @@ function operate (operator,num1,num2) {
         case "mul":
             return mul(num1,num2);
           break; 
+
+        case "div":
+            return div(num1,num2);
+        break; 
     }
 }
