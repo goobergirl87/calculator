@@ -9,5 +9,8 @@ let op;
 
 function operate (operator,num1,num2) {
     switch (operator) {
+        case "add":
+            return add(num1,num2);
+        break;
     }
 }
