@@ -6,3 +6,11 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+button {
+    padding: 5px;
+    margin: 5px;
+    width: 35px;
+    font-size: 25px;
+    background-color: white;
+}
