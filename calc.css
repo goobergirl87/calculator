@@ -62,3 +62,7 @@ button {
     background: rgb(255, 208, 208);
 }
 
+.display {
+    border: 0.75px solid black;
+    border-radius: 0.25rem;
+}
