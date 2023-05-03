@@ -1,3 +1,8 @@
+let operator = "";
+let previousValue = "";
+let currentValue = "";
+
+
 document.addEventListener("DOMContentLoaded", function (){
 let clear = document.querySelector(".clear");
 let equal = document.querySelector(".equal");
