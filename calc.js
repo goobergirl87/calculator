@@ -1,3 +1,16 @@
+document.addEventListener("DOMContentLoaded", function (){
+let clear = document.querySelector(".clear");
+let equal = document.querySelector(".equal");
+let decimal = document.querySelector(".decimal");
+
+let numbers = document.querySelectorAll(".number");
+let operators = document.querySelectorAll(".operator");
+
+let previousScreen = document.querySelector(".previous");
+let currentScreen = document.querySelector(".current");
+
+})
+
 const add = (num1,num2) => num1 + num2;
 const sub = (num1,num2) => num1 - num2;
 const mul = (num1,num2) => num1 * num2;
