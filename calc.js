@@ -14,7 +14,17 @@ let operators = document.querySelectorAll(".operator");
 let previousScreen = document.querySelector(".previous");
 let currentScreen = document.querySelector(".current");
 
+
+numbers.forEach((number)=> number.addEventListener("click", function (e) {
+    handleNumber(e.target.textContent)
 })
+)
+
+})
+
+function handleNumber (num) {
+    console.log(num)
+}
 
 const add = (num1,num2) => num1 + num2;
 const sub = (num1,num2) => num1 - num2;
