@@ -23,7 +23,9 @@ numbers.forEach((number)=> number.addEventListener("click", function (e) {
 })
 
 function handleNumber (num) {
+    if(currentValue.length <= 5){
     currentValue += num;
+    }
 }
 
 const add = (num1,num2) => num1 + num2;
