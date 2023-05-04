@@ -20,12 +20,25 @@ numbers.forEach((number)=> number.addEventListener("click", function (e) {
     currentScreen.textContent = currentValue;
 }))
 
+operators.forEach((op)=> op.addEventListener("click", function (e) {
+    handleOperator(e.target.textContent)
+    currentScreen.textContent = operator;
+    previousScreen.textContent = previousValue + " " + operator;
+    currentScreen.textContent = currentValue;
+}))
+
 })
 
 function handleNumber (num) {
     if(currentValue.length <= 5){
     currentValue += num;
     }
+}
+
+function handleOperator (op) {
+    operator = op;
+    previousValue = currentValue;
+    currentValue = "";
 }
 
 const add = (num1,num2) => num1 + num2;
