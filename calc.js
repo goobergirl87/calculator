@@ -27,6 +27,14 @@ operators.forEach((op)=> op.addEventListener("click", function (e) {
     currentScreen.textContent = currentValue;
 }))
 
+clear.addEventListener ("click", function (e) {
+    currentValue = "";
+    previousValue = "";
+    operator = "";
+    previousScreen.textContent = currentValue;
+    currentScreen.textContent = currentValue;
+})
+
 })
 
 function handleNumber (num) {
